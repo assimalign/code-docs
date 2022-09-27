@@ -1,0 +1,14 @@
+{
+    "name": "docs-panoptic-net",
+    "version": "1.0.0",
+    "type": "module",
+    "private": "true",
+    "scripts": {
+        "start": "vite --port 5003 --strictPort --mode dev",
+        "start:qa": "vite --mode qa",
+        "start:uat": "vite --mode uat",
+        "start:prd": "vite --mode prd",
+        "build": "vue-tsc && vite build --mode prd"
+    },
+    "dependencies": {}
+}

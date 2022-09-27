@@ -1,0 +1,17 @@
+{
+    "name": "docs-host",
+    "version": "1.0.0",
+    "type": "module",
+    "private": "true",
+    "scripts": {
+        "start": "vite --port 5000 --strictPort --mode dev",
+        "start:qa": "vite --mode qa",
+        "start:uat": "vite --mode uat",
+        "start:prd": "vite --mode prd",
+        "build": "vue-tsc && vite build --mode prd",
+        "stop": "kill-port --port 5000"
+    },
+    "dependencies": {
+        "vue-router": "^4.1.5"
+    }
+}

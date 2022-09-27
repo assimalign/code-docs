@@ -1,0 +1,14 @@
+{
+    "name": "docs-panoptic-api",
+    "version": "1.0.0",
+    "type": "module",
+    "private": "true",
+    "scripts": {
+        "start": "vite --mode dev",
+        "start:qa": "vite --mode qa",
+        "start:uat": "vite --mode uat",
+        "start:prd": "vite --mode prd",
+        "build": "vue-tsc && vite build --mode prd"
+    },
+    "dependencies": {}
+}
