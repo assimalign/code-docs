@@ -1,3 +1,8 @@
-export { PanopticDBSidebarConfig } from './sidebar-panoptic-db'
-export { PanopticAPISidebarConfig } from './sidebar-panoptic-api'
-export { PanopticNETSidebarConfig } from './sidebar-panoptic-net'
+import { SidebarConfigArray } from 'vuepress'
+import { languageExtensionsSidebarItems } from './language-extensions'
+
+const sidebar: SidebarConfigArray = [
+    ...languageExtensionsSidebarItems
+]
+
+export default sidebar

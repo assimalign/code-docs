@@ -8,11 +8,11 @@ export const PanopticAPISidebarConfig: SidebarConfigArray = [
         children: [
             {
                 text: 'Overview',
-                link: '/panoptic-db/index.md'
+                link: '/panoptic-api/index.md'
             },
             {
                 text: 'Fundamentals',
-                link: '/panoptic-db/overview.md'
+                link: '/panoptic-api/overview.md'
             }            
         ]
     }
