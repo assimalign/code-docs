@@ -7,3 +7,6 @@
 - Language
 - Indexing
 - Transactions
+- Common File Structures
+	- Segmentations
+	- 
