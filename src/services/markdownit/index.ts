@@ -5,7 +5,7 @@ export const markdownIt = new MarkdownIt()
         markdown.core.ruler.push('styling', (state) => {
             state.tokens.forEach((token) => {
                 if (token.type === 'heading_open') {
-                    token.attrSet('class', 'text-large')                    
+                    token.attrSet('class', 'text-blue-500')
                 }
 
                 console.log(token)

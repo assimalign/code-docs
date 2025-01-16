@@ -12,3 +12,13 @@ Table
 | column 1 | column 2 | 
 |----------|----------|
 |  value 1 | value 2  |
+
+
+### Header 1
+
+Some test
+
+## HEader 2
+--- 
+
+

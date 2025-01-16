@@ -1,4 +1,8 @@
 
+## Graph Stitching
 
-- [ ] REST to Graph Model
-- [ ] 
+
+
+## Graph Visualizer
+
+- The ability to render a graphical view of 

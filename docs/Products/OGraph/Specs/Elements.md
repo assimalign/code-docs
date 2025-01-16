@@ -1,0 +1,17 @@
+
+- GDM (Graph Data Model)
+	- Vertex
+	- Edge
+	- Type
+		- Entity Type
+			- ONLY contains key value pairs for the entity
+		- Collection Type
+		- Complex Type
+		- Enum Type
+		- Primitive Type
+	- Operation
+		- Methods
+			- Supported Methods
+			- Operation Mapping
+- Query Language
+- 

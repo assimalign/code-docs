@@ -1,17 +1,23 @@
 import { createApp, defineComponent, h, ref } from "vue";
 import { RouterView } from "vue-router";
 import { ChevronLeftIcon } from "@heroicons/vue/24/solid"
+import Item from "./temp.png"
 
 const useClassNames = (...classes: Array<any>) => {
     return classes.filter(Boolean).join(' ')
 }
+
 const ApplicationTopbar = defineComponent({
     name: 'ApplicationTopbar',
     setup(props, ctx) {
-        
-        return () => {
-            return h('div', {class: 'fixed flex flex-row flex-1 bg-black border-b border-primary-400 p-3 w-full shadow-md h-16 max-h-16'}, [
 
+        return () => {
+            return h('div', { class: 'fixed flex flex-row flex-1 bg-gray-800 border-b border-primary-400 p-3 w-full shadow-md h-16 max-h-16' }, [
+                h('img', {
+                    src: Item,  
+                    width: "120",
+                    height: "50"
+                })
             ])
         }
     }

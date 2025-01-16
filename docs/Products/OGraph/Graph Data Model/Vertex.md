@@ -1,0 +1,1 @@
+A vertex (also called a node) represents a single entity with data stored as a collection key value pairs.
